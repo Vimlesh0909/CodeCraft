@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content">
+    <ImageView
+            android:layout_width="60dp"
+            android:layout_height="75dp"
+            android:id="@+id/icon_restra"
+            android:contentDescription="TODO"
+            android:foregroundGravity="center" app:layout_constraintEnd_toStartOf="@+id/name_view"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp" app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+            android:text="@string/textview1"
+            android:layout_width="0dp"
+            android:textColor="#0A0A0A"
+            android:layout_height="36dp"
+            android:id="@+id/name_view"
+            android:textSize="18sp"
+            android:textStyle="bold" app:layout_constraintTop_toTopOf="@+id/icon_restra"
+            app:layout_constraintStart_toEndOf="@+id/icon_restra" android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp" app:layout_constraintEnd_toEndOf="parent" android:singleLine="true"
+            android:maxLines="1"/>
+    <TextView
+            android:text="@string/textview"
+            android:layout_width="0dp"
+            android:textColor="#B9B7B7"
+            android:layout_height="45dp"
+            android:id="@+id/address_view"
+            android:textColorLink="#00EE2828"
+            app:layout_constraintTop_toBottomOf="@+id/name_view"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="@+id/icon_restra"
+            android:layout_marginLeft="1dp" android:layout_marginStart="1dp"
+            app:layout_constraintStart_toEndOf="@+id/icon_restra" android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp" app:layout_constraintEnd_toEndOf="@+id/name_view" android:maxLines="2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

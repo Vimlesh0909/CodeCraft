@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CodeCraft</string>
+    <string name="title_activity_restra_list">RestraListActivity</string>
+    <string name="gps_status_enabled">"GPS is Enabled"</string>
+    <string name="gps_status_disabled">"GPS is Disabled"</string>
+    <string name="textview1">TextView</string>
+    <string name="textview">TextView</string>
+</resources>
